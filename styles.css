@@ -1,0 +1,69 @@
+html {
+    background-image: url(/weather-background.webp);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding: 30px;
+    color: white;
+}
+
+h1 {
+    margin-right: auto;
+}
+
+#inputsCont {
+    display: flex;
+    gap: 10px;
+}
+
+#toggleDegreesBtn {
+    margin-top: 2rem;
+    padding: .5rem 1rem;
+}
+
+#weatherDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -3rem;
+    color: white;
+    height: 300px;
+    width: 600px;
+    border-radius: 28px;
+    background-color: black;
+}
+
+#top {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    gap: 3rem;
+}
+
+#right {
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+
+#currentTemp {
+    font-size: 7rem;
+}

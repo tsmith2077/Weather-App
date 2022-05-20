@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="weather.js" defer></script>
+</head>
+<body>
+    <div id="header">
+        <h1>Drizzly Bear Weather</h1>
+        <div id="inputsCont">
+            <input type="text" id="searchCity" class="searchInput" placeholder="Search city...">
+            <input type="text" id="searchCountry" class="searchInput" placeholder="Search Country Code...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <button id="toggleDegreesBtn">Toggle &#8451; / &#8457;</button>
+    </div>
+    <div id="weatherDisplay">
+        <div id="top">
+            <div id="weather"></div>
+            <div id="city"></div>
+        </div>
+        <div id="bottom">
+            <div id="left">
+        <div id="currentTemp" class="temp"></div>
+
+        </div>
+        <div id="right">
+            <div id="wind"></div>
+            <div id="realFeel" class="temp"></div>
+            <div id="minTemp" class="temp"></div>
+            <div id="maxTemp" class="temp"></div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
